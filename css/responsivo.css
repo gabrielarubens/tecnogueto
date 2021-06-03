@@ -1,0 +1,56 @@
+@media screen and (max-width 480px) {
+
+.todos-os-blocos-de-recursos,
+.baner,
+.blocos-depoimento,
+.conteudo-do-header,
+.conteudo-vamos-la,
+.conteudo-conquista,
+.conteudo-gerencia-seus-projetos {
+    .flex-direction: column;
+}
+
+.bloco-de-recursos,
+.depoimento,
+.coluna {
+    width: 100%;
+}
+
+.depoimento,
+.margin-negative-110 .depoimento:first-child {
+    margin: 0;
+}
+
+.botoes-lojas {
+    margin-top: 1.25rem;
+    display: flex;
+}
+
+.imagem-celular {
+    margin-top: 2.50rem;
+}
+
+.baner-principal {
+   background: #cbfdf2;
+}
+
+.imagem-responsiva {
+width: 100%;
+height:auto;
+display: block;
+}
+
+.rodape {
+    padding-left: 0;
+    padding-right: 0;
+}
+.todo-conteudo-gerencia-projetos .botoes-lojas {
+margin-top: 48px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.margin-top-20 {
+    margin-top: 1.25rem;
+}
